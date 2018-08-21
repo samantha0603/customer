@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedbutton"
+        android:text="Login"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="450dp">
+    <TextView
+        android:id="@+id/regtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:clickable="true"
+        android:layout_marginLeft="40dp"
+        android:text="new user? register"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/forget_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:text="forgot password?"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="275dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/red" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColorHint="#848383"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp">
+
+        <EditText
+            android:id="@+id/user_id"
+            android:layout_width="300dp"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="135dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="UserName" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColorHint="#848383"
+        android:layout_alignParentTop="true"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="205dp">
+
+        <EditText
+            android:id="@+id/pwd_id"
+            android:layout_width="300dp"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="205dp"
+            android:ems="10"
+            android:inputType="textPassword"
+
+            android:hint="Password" />
+    </android.support.design.widget.TextInputLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loginpb"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+

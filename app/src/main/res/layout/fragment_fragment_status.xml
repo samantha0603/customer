@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentStatus"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan the QR code here"
+        android:id="@+id/button"
+        android:layout_marginTop="462dp"
+        android:layout_below="@+id/imageView"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:padding="10dp"
+        />
+
+</FrameLayout>

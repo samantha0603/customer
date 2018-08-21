@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/drop1"
+        android:title="Hi, Customer"
+        app:showAsAction="never">
+
+    </item>
+    <item android:title="Logout"
+        app:showAsAction="never"
+        android:id="@+id/drop2"
+        >
+
+    </item>
+    <item android:title="Change Password"
+        app:showAsAction="never"
+        android:id="@+id/drop3">
+
+    </item>
+</menu>

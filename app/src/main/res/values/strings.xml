@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Customer</string>
+    <string name="home">Home</string>
+    <string name="issue">Issue</string>
+    <string name="status">Status</string>
+    <string name="feedback">Feedback</string>
+    <!--TODO:FrgamentHome -->
+    <string name="vg">Very Good</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+    <string name="vb">Very Bad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--TODO: frgment issue-->
+    <string name="description">Description Of Issue</string>
+    <string name="name">name</string>
+    <string name="phone">phno</string>
+    <string name="address">address</string>
+    <string name="submit">submit</string>
+    <string name="product_name">product name</string>
+</resources>
